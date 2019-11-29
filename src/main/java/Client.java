@@ -7,11 +7,13 @@ import lombok.Setter;
 public class Client {
     int id;
     private Card card;
-    int valueOfAllPurchases;
+    int amountOfAllPurchases;
+    int bonuses;
 
-    public Client(int id, Card card, int valueOfAllPurchases) {
+    public Client(int id, Card card, int amountOfAllPurchases, int bonuses) {
         this.id = id;
         this.card = card;
-        this.valueOfAllPurchases = valueOfAllPurchases;
+        this.amountOfAllPurchases = amountOfAllPurchases;
+        this.bonuses = bonuses;
     }
 }

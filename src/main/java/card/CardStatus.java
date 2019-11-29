@@ -3,7 +3,8 @@ package card;
 public enum CardStatus {
     STANDARD("Стандартный"),
     SILVER("Серебряный"),
-    GOLD("Золотой");
+    GOLD("Золотой"),
+    NO("Нет");
 
     private String title;
 

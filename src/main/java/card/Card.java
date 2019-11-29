@@ -34,17 +34,5 @@ public abstract class Card {
         this.reservationOfGoods = reservationOfGoods;
         this.dedicatedLineInHelpDesk = dedicatedLineInHelpDesk;
     }
-
-    public Card(Card card) {
-        this.cardStatus = card.getCardStatus();
-        this.bonusPerThousand = card.getBonusPerThousand();
-        this.termExchangeGoods = card.getTermExchangeGoods();
-        this.percentageOfServicesRefund = card.getPercentageOfServicesRefund();
-        this.additionalWarrantyPeriod = card.getAdditionalWarrantyPeriod();
-        this.additionalInformationServices = card.isAdditionalInformationServices();
-        this.customizedSpecialOffers = card.isCustomizedSpecialOffers();
-        this.reservationOfGoods = card.isReservationOfGoods();
-        this.dedicatedLineInHelpDesk = card.isDedicatedLineInHelpDesk();
-    }
 }
 
